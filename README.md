@@ -1,5 +1,6 @@
 <h1 align=center>Narcan Kandy for Raves</h1>
-**Narcan Kandy for Raves** is a portable and stylish case for Narcan, designed to reduce opioid overdoses at festivals, raves, and other events where quick access to life-saving medication can make all the difference. 
+
+Narcan Kandy for Raves is a portable and stylish case for Narcan, designed to reduce opioid overdoses at festivals, raves, and other events where quick access to life-saving medication can make all the difference. 
 
 <p>This project is an initiative under Public Invention and Helpful Invention aims to provide both a practical tool and a conversation starter around harm reduction.</p>
 
@@ -41,7 +42,7 @@ Submit a pull request with your updates.
 ## 🌍 Join the Movement
 Follow us at Public Invention and become part of a global initiative dedicated to creating open-source solutions for public health challenges.
 
-***Let’s reduce opioid overdoses together.***
+<h2 align=center>Let’s reduce opioid overdoses together.</h2>
 
 
 ## 📄 License
