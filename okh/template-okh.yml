@@ -2,168 +2,140 @@
 ---
 
 # The content of this manifest file is licensed under a Creative Commons Attribution 4.0 International License. 
-# Licenses for modification and distribution of the hardware, documentation, source-code, etc are stated separately.
-
-# Remove any fields that are not used. Comments (beginning with '#') may also be removed.
+# Licenses for modification and distribution of the hardware, documentation, source code, etc., are stated separately.
 
 # Manifest metadata
 
-date-created: [value]                      # YYYY-MM-DD
-
-date-updated: [value]                      # YYYY-MM-DD
+date-created: 2025-01-20                      # YYYY-MM-DD
+date-updated: 2025-01-20                      # YYYY-MM-DD
 
 manifest-author:
-  name: [value]                            # required | text
-  affiliation: [value]                     # text
-  email: [value]                           # email address
+  name: Public Invention
+  affiliation: pubinv.org
+  email: contact@pubinv.org
 
-manifest-language: [language-code]-[region] 
+manifest-language: en-US
 
-documentation-language: [language-code]-[region] 
-
-manifest-is-translation:  
-  title: [value]                           # text | Title of the original
-  manifest: [value]                        # URL - Absolute path | OKH manifest location
-  web: [value]                             # URL - Absolute path | web presence location
-  lang: [language]-[region]                # language of original
-
-documentation-is-translation:  
-  title: [value]                           # text | Title of the original
-  manifest: [value]                        # URL - Absolute path | OKH manifest location
-  web: [value]                             # URL - Absolute path | web presence location
-  lang: [language]-[region]                # language of original
+documentation-language: en-US
 
 # Properties
 
-title: [value]                             # required | text | A title to identify the thing
+title: Narcan Kandy for Raves                # A title to identify the project
 
-description: |                             # required | paragraph
-  [value]
+description: |                              
+  Narcan Kandy is a portable Narcan case designed for harm reduction at festivals. 
+  It empowers individuals to carry life-saving Narcan in an accessible and discreet form.
 
-intended-use: |                            # recommended | Paragraph
-  [value]
+intended-use: |                           
+  To provide a practical, portable solution for carrying Narcan, reducing the risk of opioid overdoses in high-risk environments like festivals and raves.
 
-keywords:                                  # At least one keyword is recommended | text array 
-  - [keyword 1]
-  - [keyword 2]
+keywords:                                  
+  - harm reduction
+  - opioid overdose prevention
+  - festival safety
+  - portable Narcan case
+  - open hardware
 
-project-link: [value]                      # At least project-link or documentation-home is required, otherwise recommended | absolute path URL
+project-link: https://github.com/pubinv/narcan-kandy 
 
-health-safety-notice: |                    # paragraph
-  [value]
+health-safety-notice: |                    
+  This product is not a replacement for professional medical care. It is intended to hold Narcan securely and should be used responsibly.
 
 contact:
-  name: [value]                            # text
-  affiliation: [value]                     # text
-  email: [value]                           # email address
+  name: Public Invention Team
+  affiliation: Public Invention
+  email: contact@pubinv.org
   social:
-    - platform: [value]                    # text
-      user-handle: [value]                 # text
+    - platform: GitHub
+      user-handle: pubinv
 
-contributors:                              # recommended
-  - name: [contributor 1]                  # text
-    affiliation: [value]                   # text
-    email: [value]                         # email address
+contributors:                             
+  - name: Public Invention Team
+    affiliation: Public Invention
+    email: contact@pubinv.org
 
-image: [value]                             # recommended | absolute or relative path
+image: images/narcan-kandy-case.jpg        # Replace with the path to your representative image
 
-version: [value]                           # text
+version: 1.0                               
+development-stage: Prototype               
 
-development-stage: [value]                 # text
-
-made: [true/false]                         # boolean - true or false
-
-made-independently: [true/false]           # boolean - true or false
+made: false                                
+made-independently: true                   
 
 standards-used:
-  - standard-title: [value]                # Required where used | Title of the standard used in developing the design or documentation
-    publisher: [value]                     # Publisher of the standard
-    reference: [value]                     # Reference indentifier of the standard (e.g. ISO 9001)
-    certification:                         # If certification has been granted confirming compliance with the standard
-      - certifier: [value]                 # Individual or organisation granting the certification. Use "Self" for self-certification
-        date-awarded: [value]              # Date certification was granted
-        link: [value]                      # Link to evidence of certification (e.g. certificate). Use an an absolute path to an external resource or an absolute or relative path to evidence within the documentation.
-
-derivative-of:  
-  title: [value]                           # text | Title of the original
-  manifest: [value]                        # URL - Absolute path | OKH manifest location
-  web: [value]                             # URL - Absolute path | web presence location
-
-variant-of:  
-  title: [value]                           # text | Title of the original
-  manifest: [value]                        # URL - Absolute path | OKH manifest location
-  web: [value]                             # URL - Absolute path | web presence location
-
-sub:  
-  title: [sub 1]                           # text | Title of the original
-  manifest: [value]                        # URL - Absolute path | OKH manifest location
-  web: [value]                             # URL - Absolute path | web presence location
+  - standard-title: ISO 9001:2015
+    publisher: International Organization for Standardization
+    reference: ISO 9001
+    certification:
+      - certifier: Self
+        date-awarded: 2025-01-20
+        link: https://github.com/pubinv/narcan-kandy/certificates/iso9001.pdf
 
 # License 
 
-license:                                   # At least one license is required | The format should be an SPDX identifier. See https://spdx.org/licenses/hardware: [value] # recommended | The license under which the hardware is released
-  hardware: [value]                        # recommended | The license under which the documentation is released
-  documentation: [value]                   # recommended | The license under which the documentation is released
-  software: [value]                        # recommended where software is used | The license under which the software is released
+license:                                   
+  hardware: CERN-OHL-S-2.0                 
+  documentation: CC-BY-4.0                 
+  software: MIT                            
 
 licensor: 
-  name: [value]                            # text
-  affiliation: [value]                     # text
-  email: [value]                           # email address
+  name: Public Invention
+  affiliation: Public Invention
+  email: contact@pubinv.org
 
 # Documentation
 
-documentation-home: [value]               # At least one of the project-link or documentation-home fields is required | absolute path
+documentation-home: https://github.com/pubinv/narcan-kandy/docs
 
-archive-download: [value]                 # Absolute or relative path
+archive-download: https://github.com/pubinv/narcan-kandy/archive/main.zip
 
-design-files:                             # recommended
-  - path: [value]                         # Absolute or relative path
-    title: [value]                        # text
+design-files:                             
+  - path: 3D-design-files/README.md       
+    title: Narcan Kandy 3D Design Files  
 
-schematics:                               # recommended where applicable 
-  - path: [value]                         # Absolute or relative path
-    title: [value]                        # text
+schematics:                               
+  - path: schematics/narcan-kandy-schematic.pdf
+    title: Narcan Kandy Schematics
 
-bom: [value]                              # recommended | absolute or relative path | Direct the maker to the Bill of Materials
+bom: bom/bill-of-materials.csv            
 
-tool-list: [value]                        # recommended | absolute or relative path | Direct the maker to a list of tools required to make the thing
+tool-list: tool-list/tools.md             
 
-making-instructions:                      # recommended
-  - path: [value]                         # Absolute or relative path
-    title: [value]                        # text
+making-instructions:                      
+  - path: making-instructions/README.md
+    title: Assembly Instructions          
 
-manufacturing-files:                      # recommended where applicable
-  - path: [value]                         # Absolute or relative path
-    title: [value]                        # text
+manufacturing-files:                      
+  - path: manufacturing-files/README.md
+    title: Manufacturing Files            
 
-risk-assessment:                          # recommended 
-  - path: [value]                         # Absolute or relative path
-    title: [value]                        # text
+risk-assessment:                          
+  - path: risk-assessment/README.md
+    title: Risk Assessment                
 
-tool-settings:                            # recommended where applicable
-  - path: [value]                         # Absolute or relative path
-    title: [value]                        # text
+tool-settings:                            
+  - path: tool-settings/README.md
+    title: Tool Settings                  
 
 quality-instructions:
-  - path: [value]                         # Absolute or relative path
-    title: [value]                        # text
+  - path: quality-instructions/README.md
+    title: Quality Control Instructions  
 
-operating-instructions:                   # recommended
-  - path: [value]                         # Absolute or relative path
-    title: [value]                        # text
+operating-instructions:                   
+  - path: operating-instructions/README.md
+    title: Operating Instructions         
 
-maintenance-instructions: [value]         # recommended
-  - path: [value]                         # Absolute or relative path
-    title: [value]                        # text
+maintenance-instructions: 
+  - path: maintenance-instructions/README.md
+    title: Maintenance Instructions       
 
-disposal-instructions: [value]            # recommended
-  - path: [value]                         # Absolute or relative path
-    title: [value]                        # text
+disposal-instructions: 
+  - path: disposal-instructions/README.md
+    title: Disposal Instructions          
 
-software:                                 # recommended where applicable | Source code or executable software that the thing uses
-  - path: [value]                         # Absolute or relative path
-    title: [value]                        # text
+software:                                 
+  - path: software/narcan-kandy-software.md
+    title: Software Guide                 
 
-# User defined Fields 
+# User defined Fields
 # Include any custom / extended fields here
