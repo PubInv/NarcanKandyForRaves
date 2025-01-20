@@ -1,4 +1,7 @@
-site_name: Open Know How
-nav:
-    - 'index.md'
-    - 'about.md'
+site_name: Narcan Kandy for Raves  
+theme: material  
+nav:  
+  - Home: index.md  
+  - Assembly: making-instructions/README.md  
+  - Maintenance: maintenance-instructions/README.md  
+  - Documentation: docs/README.md  
