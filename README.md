@@ -26,9 +26,10 @@ This repository contains:
 Assembly Instructions: Easy-to-follow guides for assembling your own Narcan Kandy.
 Community Contributions: Ideas, improvements, and forked designs.
 
-### Dependencies
+### Tech Stack/Materials
 - Freecad 3D Modeling
 - 3D Printer
+- Polylactic Acid
 
 ## 💡 How to Contribute
 We’re open to your ideas!
