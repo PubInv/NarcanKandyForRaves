@@ -1,6 +1,6 @@
-<h1 align=center>Narcan Kandy for Raves</h1>
+<h1 align=center>Narcan Kandi for Raves</h1>
 
-Narcan Kandy for Raves is a portable and stylish case for Narcan, designed to reduce opioid overdoses at festivals, raves, and other events where quick access to life-saving medication can make all the difference. 
+Narcan Kandi for Raves is a portable and stylish case for Narcan, designed to reduce opioid overdoses at festivals, raves, and other events where quick access to life-saving medication can make all the difference. 
 
 <img src="https://github.com/user-attachments/assets/faef2342-34d8-4ba7-a665-d0a47c23941e" alt="Narcan Ad" width="300" height="300">
 
@@ -8,19 +8,19 @@ Narcan Kandy for Raves is a portable and stylish case for Narcan, designed to re
 
 ## 🚀 Project Vision
 Our goal is to save lives by:
-- Improving Accessibility: Creating a compact, easy-to-carry Narcan case that fits seamlessly into festival attire (bracelets, necklaces, etc.).
-- Promoting Awareness: Normalizing harm reduction practices in festival and rave culture.
-- Encouraging Open-Source Collaboration: Leveraging community input to enhance design, usability, and effectiveness.
+- Improving Accessibility 
+- Promoting Awareness 
+- Encouraging Open-Source Collaboration 
 
 ## ✨ Features
 - Portable Design -> Fits easily in pockets, bags, or wearable rave gear.
 - User-Friendly -> Quick access in high-stress situations.
-= Educational Materials -> Basic opioid overdose response instructions included.
+- Educational Materials -> Basic opioid overdose response instructions included.
 
 ## 🛠️ Getting Started
 1. Clone the Repository in bash
-- Copy code git clone https://github.com/yourusername/narcan-kandy.git  
-2. cd narcan-kandy  
+- Copy code git clone https://github.com/yourusername/narcanKandiForRaves.git  
+2. cd narcanKandiForRaves 
 
 Design Details
 This repository contains:
