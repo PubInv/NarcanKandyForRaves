@@ -25,9 +25,9 @@ Our goal is to save lives by:
 ## Design Details
 This repository contains:
 
-### 3D Design Files: STL/OBJ files for the case.
-Assembly Instructions: Easy-to-follow guides for assembling your own Narcan Kandy.
-Community Contributions: Ideas, improvements, and forked designs.
+- 3D Design Files: STL/OBJ files for the case.
+- Assembly Instructions: Easy-to-follow guides for assembling your own Narcan Kandy.
+- Community Contributions: Ideas, improvements, and forked designs.
 
 ## Tech Stack/Materials
 - Freecad 3D Modeling
