@@ -2,9 +2,9 @@
 
 Narcan Kandi for Raves is a portable and stylish case for Narcan, designed to reduce opioid overdoses at festivals, raves, and other events where quick access to life-saving medication can make all the difference. 
 
-<img src="https://github.com/user-attachments/assets/faef2342-34d8-4ba7-a665-d0a47c23941e" alt="Narcan Ad" width="300" height="300">
-
 <p>This project is an initiative under Public Invention and Helpful Invention aims to provide both a practical tool and a conversation starter around harm reduction.</p>
+
+<img src="https://github.com/user-attachments/assets/faef2342-34d8-4ba7-a665-d0a47c23941e" alt="Narcan Ad" width="300" height="300">
 
 ## 🚀 Project Vision
 Our goal is to save lives by:
